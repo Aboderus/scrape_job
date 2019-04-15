@@ -1,0 +1,26 @@
+{
+  "name": "scrape_job",
+  "version": "1.0.0",
+  "description": "Just for fun project to scrape two jobposting sites and add them to a postgresql database.     No security, barebones implementation.",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "pg": "^7.9.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perdurab0/scrape_job.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perdurab0/scrape_job/issues"
+  },
+  "homepage": "https://github.com/Perdurab0/scrape_job#readme"
+}
